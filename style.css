@@ -68,7 +68,7 @@ footer {
 }
 
 .header-img {
-    position: absolute;
+    position: right;
     top: 10px; /* Adjust as needed */
     right: 10px; /* Adjust as needed */
     width: 5cm;
