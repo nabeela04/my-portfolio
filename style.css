@@ -25,11 +25,14 @@ p {
     font-size: 1.2em;
 }
 
-/* Define the moveWelcome animation */
-.profile-image {
-            float: right;
-            margin: 10px; /* Optional: Add some margin for spacing */
-        }
+mg {
+    max-width: 100%;
+    height: auto;
+}
+
+.other-text {
+    text-align: right;
+}
 
 nav ul {
     list-style-type: none;
