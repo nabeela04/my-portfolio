@@ -26,7 +26,10 @@ p {
 }
 
 /* Define the moveWelcome animation */
-
+.profile-image {
+            float: right;
+            margin: 10px; /* Optional: Add some margin for spacing */
+        }
 
 nav ul {
     list-style-type: none;
