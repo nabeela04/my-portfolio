@@ -10,8 +10,8 @@ header {
     color: #fff;
     text-align: center;
     padding: 20px;
-    height: 6cm; /* Increased header height */
-    position: relative; /* Required for absolute positioning */
+    height: 6cm; 
+    position: relative; 
 }
 
 .header-content {
@@ -69,8 +69,8 @@ footer {
 
 .header-img {
     position: right;
-    top: 20px; /* Adjust as needed */
-    right: 20px; /* Adjust as needed */
+    top: 10px; 
+    right: 10px; 
     width: 5cm;
     height: 5cm;
 }
