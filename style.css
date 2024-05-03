@@ -9,8 +9,16 @@ header {
     background-color: #3498db;
     color: #fff;
     text-align: center;
-    padding: 10px;
-    position: relative; /* Add position relative for absolute positioning */
+    padding: 20px;
+    height: 6cm; /* Increased header height */
+    position: relative; /* Required for absolute positioning */
+}
+
+.header-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 h2 {
@@ -60,8 +68,21 @@ footer {
 }
 
 .header-img {
-    float: right;
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    right: 10px; /* Adjust as needed */
     width: 5cm;
     height: 5cm;
 }
 
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.education-table th,
+.education-table td {
+    border: 1px solid #000;
+    padding: 8px;
+    text-align: left;
+}
