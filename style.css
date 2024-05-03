@@ -26,17 +26,7 @@ p {
 }
 
 /* Define the moveWelcome animation */
-@keyframes moveWelcome {
-    0% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(20px); /* Move the message 20px to the right */
-    }
-    100% {
-        transform: translateX(0);
-    }
-}
+
 
 nav ul {
     list-style-type: none;
