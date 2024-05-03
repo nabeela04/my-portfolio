@@ -69,12 +69,13 @@ footer {
 }
 
 .header-img {
-    position: right;
+    position: absolute; /* Corrected position value */
     top: 10px; 
     right: 10px; 
     width: 5cm;
     height: 5cm;
 }
+
 
 .education-table {
     width: 100%;
