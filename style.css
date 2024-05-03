@@ -69,7 +69,7 @@ footer {
 }
 
 .header-img {
-    position: absolute; /* Corrected position value */
+    position: right;
     top: 10px; 
     right: 10px; 
     width: 5cm;
